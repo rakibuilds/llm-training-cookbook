@@ -1,7 +1,10 @@
-# LLM Training Cookbook
+<p align="center">
+  <img src="assets/logo-horizontal.svg" alt="LLM Training Cookbook" width="560">
+</p>
 
-**From a laptop to a GPU cluster: everything a solo builder needs to train, fine-tune, and ship their own LLM.**
-
+<p align="center">
+  <b>From a laptop to a GPU cluster: everything a solo builder needs to train, fine-tune, and ship their own LLM.</b>
+</p>
 A practical, honest guide to how large language models are trained, and how one person with a laptop and a small budget can build real models of their own.
 
 > Last verified: November 2026. Prices, free tiers, and library APIs change fast. Items marked **(verify)** should be checked before you rely on them.
@@ -34,6 +37,7 @@ You should be comfortable with Python and basic machine learning ideas. You do *
 | [`docs/llm-training-deep-dive.md`](docs/llm-training-deep-dive.md) | How frontier labs train models: hardware, parallelism (DP/TP/PP/CP/EP), FP8 and mixed precision, optimizers, fault tolerance, post-training (SFT, RLHF, GRPO), and case studies of Llama 3 and DeepSeek-V3/R1. |
 | [`docs/llm-training-cheatsheet.md`](docs/llm-training-cheatsheet.md) | Formulas, numbers to memorize, glossary, a debugging table, 25 flashcards, and a self-quiz. |
 | [`docs/indie-deep-dive.md`](docs/indie-deep-dive.md) | The solo-builder path: what fits on your laptop, QLoRA fine-tuning, continued pretraining, GRPO, renting GPUs, cost estimates, when you need a cluster, and which open labs and models to build on. |
+| [`docs/glossary.md`](docs/glossary.md) | Plain-English glossary of every term used in the guides, with full forms and common confusions cleared up. |
 
 ## Why this exists
 
@@ -88,11 +92,7 @@ Open an issue or a pull request. For factual corrections, include the source.
 
 ## License
 
-- Documentation: [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)
-- Code (when added): MIT
-
-## Author
-
-Maintained by Rakibul ([@rakibuilds](https://github.com/rakibuilds)).
+- **Documentation** (`README.md` and everything in `docs/`): [CC BY 4.0](LICENSE-DOCS)
+- **Code** (scripts and recipes, when added): [MIT](LICENSE)
 
 If this helped you, star the repo and share it with another builder.

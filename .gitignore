@@ -1,0 +1,13 @@
+﻿.env
+__pycache__/
+*.pyc
+.venv/
+venv/
+*.safetensors
+*.gguf
+*.bin
+checkpoints/
+wandb/
+out/
+data/
+.DS_Store
